@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PetPeople</string>
+    <string name="bottom_navi_text1">홈</string>
+    <string name="bottom_navi_text2">내 팻</string>
+    <string name="bottom_navi_text3">커뮤니티</string>
+    <string name="bottom_navi_text4">프로필</string>
 </resources>

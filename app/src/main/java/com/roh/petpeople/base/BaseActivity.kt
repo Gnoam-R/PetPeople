@@ -6,7 +6,7 @@ import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
-//import com.mtjin.nomoneytrip.views.dialog.LottieDialogFragment
+import com.roh.petpeople.dialog.LottieDialogFragment
 import io.reactivex.disposables.CompositeDisposable
 
 abstract class BaseActivity<B : ViewDataBinding>(
@@ -14,13 +14,13 @@ abstract class BaseActivity<B : ViewDataBinding>(
 ) : AppCompatActivity() {
     lateinit var binding: B
     private val compositeDisposable = CompositeDisposable()
-//    lateinit var lottieDialog: LottieDialogFragment
+    lateinit var lottieDialog: LottieDialogFragment
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, layoutId)
         binding.lifecycleOwner = this
-//        lottieDialog = LottieDialogFragment.newInstance()
+        lottieDialog = LottieDialogFragment.newInstance()
     }
 
     protected fun showToast(msg: String) {
@@ -33,15 +33,15 @@ abstract class BaseActivity<B : ViewDataBinding>(
     }
 
     fun showProgressDialog() {
-//        lottieDialog.show(
-//            this.supportFragmentManager,
-//            lottieDialog.tag
-//        )
+        lottieDialog.show(
+            this.supportFragmentManager,
+            lottieDialog.tag
+        )
     }
 
     fun hideProgressDialog() {
-//        if (lottieDialog.isAdded) {
-//            lottieDialog.dismissAllowingStateLoss()
-//        }
+        if (lottieDialog.isAdded) {
+            lottieDialog.dismissAllowingStateLoss()
+        }
     }
 }
