@@ -59,4 +59,7 @@ dependencies {
 
     // lottie
     implementation 'com.airbnb.android:lottie:3.0.7'
+
+//    /*카카오로그인*/
+//    implementation group: project.KAKAO_SDK_GROUP, name: 'usermgmt', version: project.KAKAO_SDK_VERSION
 }
