@@ -4,4 +4,9 @@
     <string name="bottom_navi_text2">내 팻</string>
     <string name="bottom_navi_text3">커뮤니티</string>
     <string name="bottom_navi_text4">프로필</string>
+    <string name="kakao_app_key">9e2bb9b9111ed5bee9d4f05412722efb</string>
+
+    <string name="sign_up_text">회원가입</string>
+    <string name="master_login_text">이장님 로그인</string>
+
 </resources>

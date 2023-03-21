@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "764712505046",
+    "project_id": "petpeople-697db",
+    "storage_bucket": "petpeople-697db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764712505046:android:55626ce28bb5a26cbcc377",
+        "android_client_info": {
+          "package_name": "com.roh.petpeople"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764712505046-81nd6bklgg793phqqol7j78hsqkaf9m5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.roh.petpeople",
+            "certificate_hash": "3c1f25fd2801e16979fd572019d7205b66d59bc3"
+          }
+        },
+        {
+          "client_id": "764712505046-q00e5sff714nor7l5mpek5n4epc56tsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDel-6wtd3LiO_KdsZCd-nnJgNfr6EQlJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764712505046-q00e5sff714nor7l5mpek5n4epc56tsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
