@@ -6,6 +6,10 @@
     <string name="bottom_navi_text4">프로필</string>
     <string name="kakao_app_key">9e2bb9b9111ed5bee9d4f05412722efb</string>
 
+    <string name="kakao_link">kakaolink.com</string>
+<!--    // 커스텀 필요-->
+    <string name="kakao_scheme">kakao541c8caff279c6e6019cd20dde7951d5</string>
+
     <string name="sign_up_text">회원가입</string>
     <string name="master_login_text">이장님 로그인</string>
 
