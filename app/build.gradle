@@ -69,6 +69,23 @@ dependencies {
     /*카카오로그인*/
     implementation group: project.KAKAO_SDK_GROUP, name: 'usermgmt', version: project.KAKAO_SDK_VERSION
 
+    /*코인 라이브러리*/
+    implementation "io.insert-koin:koin-androidx-viewmodel:3.1.2"
 
+    /*파이어 베이스*/
+    implementation 'com.google.firebase:firebase-auth:19.3.2'
+    implementation 'com.google.firebase:firebase-auth-ktx:19.3.2'
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+    implementation 'com.google.firebase:firebase-storage:19.2.0'
+    implementation 'com.google.firebase:firebase-storage-ktx:19.2.0'
+    implementation 'com.google.firebase:firebase-database:19.4.0'
+    implementation 'com.google.firebase:firebase-database-ktx:19.4.0'
+
+//    // Import the BoM for the Firebase platform
+//    implementation platform('com.google.firebase:firebase-bom:26.2.0')
+//    // Declare the dependencies for the Crashlytics and Analytics libraries
+//    // When using the BoM, you don't specify versions in Firebase library dependencies
+//    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+//    implementation 'com.google.firebase:firebase-analytics-ktx'
 
 }
